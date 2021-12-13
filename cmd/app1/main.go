@@ -25,7 +25,7 @@ func main() {
 	}
 	router.AddPlugin(plugin.SignalsHandler)
 	router.AddMiddleware(middleware.Recoverer)
-	pub, err := sql.NewPublisher(`postgres://postgres:postgres@localhost:5438/dbname?sslmode=disable`, logger)
+	pub, err := sql.NewPublisher(`postgres://postgres:postgres@localhost:5438/dbname?sslmode=disable&select-path=select.sql&insert-path=insert.sql`, logger)
 	if err != nil {
 		panic(err)
 	}

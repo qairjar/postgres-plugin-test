@@ -9,7 +9,8 @@ require (
 	github.com/jmoiron/sqlx v1.3.4
 	github.com/lib/pq v1.10.3
 	github.com/qairjar/kafka-deduplication v0.0.0-20211202035149-f3ff7a59aadf
-	github.com/qairjar/watermill-sql-plugin v0.0.0-20211206091349-d8eff8d674e9
-	golang.org/x/crypto v0.0.0-20211202192323-5770296d904e // indirect
-	golang.org/x/net v0.0.0-20211205041911-012df41ee64c // indirect
+	github.com/qairjar/watermill-sql-plugin v0.0.0-20211213040045-63acdcf50605
+	go.opentelemetry.io/otel/internal/metric v0.26.0 // indirect
+	golang.org/x/crypto v0.0.0-20211209193657-4570a0811e8b // indirect
+	golang.org/x/net v0.0.0-20211209124913-491a49abca63 // indirect
 )
